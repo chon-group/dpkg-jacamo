@@ -1,29 +1,28 @@
-# jason-cli - Debian Package for [Jason CLI](jason-lang.github.io/jason/jason-cli/)
+# jacamo-cli - Debian Package for [JaCaMo CLI](https://github.com/jacamo-lang/jacamo)
 
 ## DESCRIPTION
-This package provides the Jason CLI, a command-line interface tool for Jason applications, for Debian and derivates.
+This package provides the JaCaMo CLI, a command-line interface tool to create and manage JaCaMo projects, for Debian and derivates.
 
-Jason is an interpreter for an extended version of AgentSpeak. It implements the operational semantics of that language, and provides a platform for the development of multi-agent systems, with many user-customisable features. Jason is available as Open Source, and is distributed under GNU LGPL.
+The JaCaMo project aims to promote the Multi-Agent Oriented Programming (MAOP) approach by providing a development platform that integrates tools and languages for programming the following dimensions of Multi-Agent Systems: agents (Jason), environment (Cartago), and organisation (Moise).
+
+The JaCaMo platform is distributed under the licences of each platform, i.e. available open source and under GNU LGPL.
 
 ## INSTALATION
 ```console
 user@pc:~$ echo "deb [trusted=yes] http://packages.chon.group/ chonos main" | sudo tee /etc/apt/sources.list.d/chonos.list 
 user@pc:~$ sudo apt update
-user@pc:~$ sudo apt install jason-cli
+user@pc:~$ sudo apt install jacamo-cli
 ```
 
 ## USING
 ```console
-user@pc:~$ jason app create multiagentSystem --console
-Creating directory multiagentSystem
+user@pc:~$ jacamo app create multiagentSystem --console
 
-You can run your application with:
-   $ jason multiagentSystem/multiagentSystem.mas2j
-
-user@pc:~$ jason multiagentSystem/multiagentSystem.mas2j 
+user@pc:~$ cd multiagentSystem/
+user@pc:multiagentSystem $ jacamo multiagentSystem.jcm 
 [bob] hello world.
 [alice] hello world.
 ```
 
 ## COPYRIGHT
-Jason is developed by [Jomi F. Hübner](https://github.com/jomifred) and [Rafael H. Bordini](https://www.inf.pucrs.br/r.bordini), based on previous work done with many colleagues, in particular Michael Fisher, Joyce Martins, Álvaro Moreira, Renata Vieira, Willem Visser, Mike Wooldridge, but also many others, as acknowledged in the manual (see the [Jason web site](http://jason.sourceforge.net/wp/documents/)).
+See the [JaCaMo web site](https://jacamo.sourceforge.net/).
