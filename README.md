@@ -8,38 +8,22 @@ The JaCaMo project aims to promote the Multi-Agent Oriented Programming (MAOP) a
 The JaCaMo platform is distributed under the licences of each platform, i.e. available open source and under GNU LGPL.
 
 ## INSTALATION
-```console
+```
 echo "deb [trusted=yes] http://packages.chon.group/ chonos main" | sudo tee /etc/apt/sources.list.d/chonos.list 
 sudo apt update
 sudo apt install jacamo-cli
 ```
 
 ## USING
-```console
+```
 jacamo app create multiagentSystem --console
 cd multiagentSystem
 jacamo multiagentSystem.jcm 
-        > Task :compileJava
-        > Task :processResources NO-SOURCE
-        > Task :classes
-
-        > Task :buildJCMDeps
-        reading from file multiagentSystem.jcm ...
-        file multiagentSystem.jcm parsed successfully!
-
-        JCM packages dependencies updated at .jcm-deps.gradle
-
-        BUILD SUCCESSFUL in 1s
-        2 actionable tasks: 2 executed
-        > Task :compileJava UP-TO-DATE
-        > Task :processResources NO-SOURCE
-        > Task :classes UP-TO-DATE
-
-        > Task :run
-        Runtime Services (RTS) is running at 192.168.1.9:46687
-        Agent mind inspector is running at http://192.168.1.9:3272
-        CArtAgO Http Server running on http://192.168.1.9:3273
-        Moise Http Server running on http://192.168.1.9:3274
+        
+        Runtime Services (RTS) is running at 127.0.0.1:46687
+        Agent mind inspector is running at http://127.0.0.1:3272
+        CArtAgO Http Server running on http://127.0.0.1:3273
+        Moise Http Server running on http://127.0.0.1:3274
         [Moise] OrgBoard o created.
         [Moise] group created: g1: group1 using artifact ora4mas.nopl.GroupBoard
         [Cartago] Workspace w created.
