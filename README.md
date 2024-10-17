@@ -1,4 +1,4 @@
-# jacamo-cli - APT Package for [JaCaMo CLI](https://github.com/jacamo-lang/jacamo)
+# jacamo-cli - APT Package for [JaCaMo CLI](https://github.com/jacamo-lang/jacamo-cli)
 
 ## DESCRIPTION
 This package provides the JaCaMo CLI, a command-line interface tool to create and manage JaCaMo projects for Debian, Ubuntu, and derivates.
@@ -41,5 +41,31 @@ jacamo multiagentSystem.jcm
         [bob] hello world.
 ```
 
+## INFO
+See the [JaCaMo web site](https://jacamo-lang.github.io/).
+
+
 ## COPYRIGHT
-See the [JaCaMo web site](https://jacamo.sourceforge.net/).
+Boissier, Olivier, Rafael H. Bordini, Jomi F. Hübner, Alessandro Ricci, e Andrea Santi. “Multi-Agent Oriented Programming with JaCaMo”. Science of Computer Programming 78, nº 6 (junho de 2013): 747–61. https://doi.org/10.1016/j.scico.2011.10.004.
+
+
+<details>
+<summary> Cite using Bibtex </summary>
+
+```
+@article{jacamo,
+title = {Multi-agent oriented programming with JaCaMo},
+journal = {Science of Computer Programming},
+volume = {78},
+number = {6},
+pages = {747-761},
+year = {2013},
+note = {Special section: The Programming Languages track at the 26th ACM Symposium on Applied Computing (SAC 2011) & Special section on Agent-oriented Design Methods and Programming Techniques for Distributed Computing in Dynamic and Complex Environments},
+issn = {0167-6423},
+doi = {https://doi.org/10.1016/j.scico.2011.10.004},
+url = {https://www.sciencedirect.com/science/article/pii/S016764231100181X},
+author = {Olivier Boissier and Rafael H. Bordini and Jomi F. Hübner and Alessandro Ricci and Andrea Santi},
+keywords = {Multi-agent oriented programming, Autonomous agents, Shared environments, Agent organisations}
+}
+```
+</details>
