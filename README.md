@@ -46,26 +46,32 @@ See the [JaCaMo web site](https://jacamo-lang.github.io/).
 
 
 ## COPYRIGHT
-Boissier, Olivier, Rafael H. Bordini, Jomi F. Hübner, Alessandro Ricci, e Andrea Santi. “Multi-Agent Oriented Programming with JaCaMo”. Science of Computer Programming 78, nº 6 (junho de 2013): 747–61. https://doi.org/10.1016/j.scico.2011.10.004.
++ The [JaCaMo project](https://github.com/jacamo-lang/jacamo) aims to promote the Multi-Agent Oriented Programming (MAOP) approach by providing a development platform that integrates tools and languages for programming the following dimensions of Multi-Agent Systems: agents, environment, and organisation.
 
+---
++ ___JaCaMo-CLI Debian Package___ is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). The licensor cannot revoke these freedoms as long as you follow the license terms:
 
-<details>
-<summary> Cite using Bibtex </summary>
+    * __Attribution__ — You must give __appropriate credit__ like below:
 
-```
-@article{jacamo,
-title = {Multi-agent oriented programming with JaCaMo},
-journal = {Science of Computer Programming},
-volume = {78},
-number = {6},
-pages = {747-761},
-year = {2013},
-note = {Special section: The Programming Languages track at the 26th ACM Symposium on Applied Computing (SAC 2011) & Special section on Agent-oriented Design Methods and Programming Techniques for Distributed Computing in Dynamic and Complex Environments},
-issn = {0167-6423},
-doi = {https://doi.org/10.1016/j.scico.2011.10.004},
-url = {https://www.sciencedirect.com/science/article/pii/S016764231100181X},
-author = {Olivier Boissier and Rafael H. Bordini and Jomi F. Hübner and Alessandro Ricci and Andrea Santi},
-keywords = {Multi-agent oriented programming, Autonomous agents, Shared environments, Agent organisations}
-}
-```
-</details>
+    Lazarin, N.M., Pantoja, C.E., Viterbo, J. (2024). Dealing with the Unpredictability of Physical Resources in Real-World Multi-agent Systems. In: Rocha, A.P., Steels, L., van den Herik, J. (eds) Agents and Artificial Intelligence. ICAART 2023. Lecture Notes in Computer Science(), vol 14546. Springer, Cham. [https://doi.org/10.1007/978-3-031-55326-4_3](https://www.researchgate.net/publication/378961821_Dealing_with_the_Unpredictability_of_Physical_Resources_in_Real-World_Multi-agent_Systems)
+
+    <details>
+    <summary> Cite using Bibtex </summary>
+
+        @InProceedings{lazarin_2024,
+        doi="10.1007/978-3-031-55326-4_3"
+        author="Lazarin, Nilson Mori
+        and Pantoja, Carlos Eduardo
+        and Viterbo, Jos{\'e}",
+        editor="Rocha, Ana Paula
+        and Steels, Luc
+        and van den Herik, Jaap",
+        title="Dealing with the Unpredictability of Physical Resources in Real-World Multi-agent Systems",
+        booktitle="Agents and Artificial Intelligence",
+        year="2024",
+        publisher="Springer Nature Switzerland",
+        address="Cham",
+        pages="48--71",
+        isbn="978-3-031-55326-4"
+        }
+    </details>
