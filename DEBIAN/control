@@ -1,9 +1,9 @@
 Package: jacamo-cli
-Version: 1.3.0-241224
+Version: 1.3.0-251113
 Priority:
 Architecture: all
 Essential:
-Depends: openjdk-21-jdk | temurin-21-jdk
+Depends: openjdk-21-jdk | temurin-21-jdk | bellsoft-java21
 Pre-depends: 
 Suggests:
 Installed-Size:
